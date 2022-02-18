@@ -1,0 +1,15 @@
+{
+  "name": "githubapicreateissuesample",
+  "version": "1.0.0",
+  "description": "Sample of creating an issue with GitHub REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M.Katsube <katsubemakito@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "octokit": "^1.7.1"
+  }
+}
