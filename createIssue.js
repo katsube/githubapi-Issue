@@ -26,7 +26,7 @@ const octokit = new Octokit({
     repo: "test",                   // リポジトリ名
     title: "Hello world",           // タイトル
     body: "This is a test issue",   // 本文
-    assignee: "katsube",            // 担当者
+    assignees: ["katsube"],         // 担当者
     labels: ["その他"],             // ラベル
     // milestone: 1                 // マイルストーン
   });
