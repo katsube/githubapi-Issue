@@ -17,7 +17,7 @@ require('dotenv').config();
 // Issue作成
 //------------------------------------------
 const octokit = new Octokit({
-  auth: process.env.GITHUB_TOKEN
+  auth: process.env.GITHUB_TOKEN  // 認証しない場合は「公開リポジトリ」のみ
 });
 
 (async ()=>{

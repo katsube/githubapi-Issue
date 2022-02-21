@@ -23,4 +23,5 @@ GITHUB_TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 $ node createIssue.js
 $ node getIssue.js
 $ node listIssue.js
+$ node updateIssue.js
 ```
