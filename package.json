@@ -1,5 +1,5 @@
 {
-  "name": "githubapicreateissuesample",
+  "name": "githubapiissuesample",
   "version": "1.0.0",
   "description": "Sample of creating an issue with GitHub REST API",
   "main": "index.js",

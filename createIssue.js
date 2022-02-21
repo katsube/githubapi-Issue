@@ -24,11 +24,11 @@ const octokit = new Octokit({
   const res = await octokit.rest.issues.create({
     owner: "katsube",               // リポジトリのオーナー（ユーザー名）
     repo: "test",                   // リポジトリ名
-    title: "Hello world2",          // タイトル
+    title: "Hello world",           // タイトル
     body: "This is a test issue",   // 本文
     assignee: "katsube",            // 担当者
     labels: ["その他"],             // ラベル
-    // milestone: 1                    // マイルストーン
+    // milestone: 1                 // マイルストーン
   });
 
   console.log(res)
