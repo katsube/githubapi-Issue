@@ -23,8 +23,8 @@ const octokit = new Octokit({
 (async ()=>{
   // Issue一覧を取得
   const issues = await octokit.rest.issues.list({
-    owner: "katsube",       // リポジトリのオーナー（ユーザー名）
-    repo: "test",           // リポジトリ名
+    owner: 'katsube',       // リポジトリのオーナー（ユーザー名）
+    repo: 'test',           // リポジトリ名
     state: 'all',           // Issueの状態（open, closed, all） Default: open
     sort: 'created',        // ソート項目（created, updated, comments） Default: created
     direction: 'asc',       // ソート順（asc, desc） Default: desc
